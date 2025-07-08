@@ -239,7 +239,7 @@ function moveBall() {
         player2Score++;
         playSound(scoreSoundBuffer);
         if (player2Score >= WINNING_SCORE) {
-            endGame("AI Wins!");
+            endGame("Your opponent Wins!");
         } else {
             resetBall();
         }
