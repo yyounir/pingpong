@@ -921,25 +921,6 @@ span.ripple {
 }
 
 @media (max-width: 768px) {
-    canvas {
-        width: 95%; /* Make canvas fill more width on smaller screens */
-        height: auto; /* Adjust height proportionally */
-        max-height: 400px; /* Limit max height for very tall screens */
-    }
-    .game-button {
-        padding: 12px 25px;
-        font-size: 0.9em;
-    }
-    .instructions {
-        font-size: 0.8em;
-        padding: 10px 15px;
-        max-width: 90%;
-    }
-    #gameMessage {
-        font-size: 1.2em;
-        padding: 20px 30px;
-    }
-
 	.popup {
 		display: none;
 		position: fixed;
