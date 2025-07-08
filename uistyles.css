@@ -6,7 +6,7 @@
 
 h1 {
 	font-family: "nunito";
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 h4 {
@@ -14,7 +14,7 @@ h4 {
 }
 
 hr {
-	border-color: #14007F;
+	border-color: #FFDEFF;
 }
 
 header{
@@ -35,7 +35,7 @@ header{
 
 header a {
 	float: left;
-	color: #14007f;
+	color: #FFDEFF;
 	text-align: left;
 	padding-top: 3px;
 	padding-right: 10px;
@@ -71,7 +71,7 @@ main {
 
 li {
 	font-size: 1.1rem;
-	color: #14007F;
+	color: #FFDEFF;
 }
 
 p
@@ -128,7 +128,7 @@ p
 	background-color: white;
 	border-radius: 20px;
 	margin-top: 10px;
-	color: #14007f; 
+	color: #FFDEFF; 
 	max-width: 85%;
 	cursor: pointer;
   	position: relative;	
@@ -143,12 +143,12 @@ p
 	background-color: white;
 	border-radius: 20px;
 	margin-top: 10px;
-	color: #14007f;
+	color: #FFDEFF;
 	position: flex;
 }
 
 #icons {
-	color: #14007f;	
+	color: #FFDEFF;	
 }
 
 #logo {
@@ -200,7 +200,7 @@ p
 }
 
 .action-button-filled:hover {
-	background-color: #14007f;
+	background-color: #FFDEFF;
 	color: white;
 }
 
@@ -212,7 +212,7 @@ p
 	text-align: center;
 	border-radius: 100px;
 	float: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	text-decoration: none;
@@ -221,7 +221,7 @@ p
 
 .action-button-unfilled a {
 	text-decoration: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	display: block;
 	font-size: 13pt;
@@ -229,7 +229,7 @@ p
 
 .action-button-unfilled:hover {
 	background-color: #B8B3FF;
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 .action-button-unfilled-card {	
@@ -244,7 +244,7 @@ p
 	text-align: left;
 	border-radius: 15px;
 	float: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	text-decoration: none;
@@ -253,7 +253,7 @@ p
 
 .action-button-unfilled-card a {
 	text-decoration: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	display: block;
 	font-size: 13pt;
@@ -261,7 +261,7 @@ p
 
 .action-button-unfilled-card:hover {
 	background-color: #B8B3FF;
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 .action-drawer-button-unfilled {	
@@ -271,7 +271,7 @@ p
 	text-align: left;
 	border-radius: 100px;
 	float: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	position: relative;	
@@ -281,7 +281,7 @@ p
 
 .action-drawer-button-unfilled a {
 	text-decoration: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	display: block;
 	font-size: 13pt;
@@ -293,14 +293,14 @@ p
 
 .action-button-tonal {
 	padding: 13px;
-	background-color:#e8e5f8;
-	border-color: #14007F;
+	background-color:#2D2B3A;
+	border-color: #2D2B3A;
 	margin: auto;
 	width: auto;
 	text-align: center;
 	border-radius: 100px;
 	float: none;
-	color: #14007F;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	font-family: nunito;
@@ -310,7 +310,7 @@ p
 
 .action-button-tonal a {
 	text-decoration: none;
-	color: #14007F;
+	color: #2D2B3A;
 	transition-duration: 0.4s;
 	display: block;
 	font-size: 13pt;
@@ -318,7 +318,7 @@ p
 }
 
 .action-button-tonal:hover {
-	background-color: #A999FF;
+	background-color: #14007F;
 }
 
 .action-button-tonal-card {
@@ -326,15 +326,15 @@ p
 	padding-bottom: 3px;
 	padding-left: 13px;
 	padding-right: 13px;
-	background-color:#e8e5f8;
-	border-color: #14007F;
+	background-color:#2D2B3A;
+	border-color: #2D2B3A;
 		
 	margin-bottom: 8px;
 	width: auto;
 	border-radius: 15px;
 	text-align: left;
 	float: none;
-	color: #14007F;
+	color: #2D2B3A;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	font-family: nunito;
@@ -352,30 +352,30 @@ p
 }
 
 .action-button-tonal-card:hover {
-	background-color: #A999FF;
+	background-color: #14007F;
 }
 
 .action-button-outlined {
 	padding: 13px;
-	border-color: #14007F;
+	border-color: #FFDEFF;
 	margin: auto;
 	width: 150px;
 	text-align: center;
 	border-radius: 100px;
 	float: none;
-	color: #14007F;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	font-family: nunito;
 	text-decoration: none;
 	outline-style: auto;
-	outline-color: #14007F;
+	outline-color: #FFDEFF;
 	font-size: 13pt;
 }
 
 .action-button-outlined a {
 	text-decoration: none;
-	color: #14007F;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	display: block;
 	font-size: 13pt;
@@ -411,7 +411,7 @@ p
 }
 
 .action-icon-filled:hover {
-	background-color: #14007f;
+	background-color: #FFDEFF;
 	color: white;
 }
 
@@ -425,14 +425,14 @@ p
 	border-radius: 100px;
 	vertical-align: middle;
 	float: right;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 }
 
 .action-icon-transparent a {
 	text-decoration: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	display: block;
 }
@@ -444,14 +444,14 @@ p
 	text-align: center;
 	border-radius: 2px;
 	float: center;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 }
 
 .action-icon-transparent-L a {
 	text-decoration: none;
-	color: #14007f;
+	color: #FFDEFF;
 	transition-duration: 0.4s;
 	display: block;
 
@@ -468,12 +468,12 @@ p
 
 .header-left {
 	float: none;	
-	color: #14007f;
+	color: #FFDEFF;
 	padding-left: 20px;
 }
 
 .header-left a {
-	color: #14007f;
+	color: #FFDEFF;
 	font-size: 1.75rem;
 	padding-top: 5px;
 	padding-right: 5px;
@@ -493,11 +493,11 @@ p
 
 .header-right {
 	float: right;	
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 .header-right a {
-	color: #14007f;
+	color: #FFDEFF;
 	font-size: 1.75rem;
 	padding-top: 5px;
 	padding-right: 5px;
@@ -608,14 +608,14 @@ span.ripple {
 .title3
 {
 	font-size: 20px;
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 .menu-text
 {
 	font-size: 30px;
 	font-style: bold;
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 /* Scrollable Card Example */
@@ -845,7 +845,7 @@ span.ripple {
     width: 300px;
     height: 100%;
     background-color: white;
-    color: #14007f;
+    color: #FFDEFF;
     transition: left 0.3s;
 	transition-duration: 0.4s;
 	border-top-right-radius: 20px;
@@ -865,7 +865,7 @@ span.ripple {
 }
 
 .drawer-nav a {
-    color: #14007f;
+    color: #FFDEFF;
     text-decoration: none;
 	padding: 10px;
 	text-align: left;
@@ -884,7 +884,7 @@ span.ripple {
 .p2 {
 	font-size: 16pt;
 	margin: none;
-	color: #14007f;
+	color: #FFDEFF;
 }
 
 .popup {
@@ -905,7 +905,7 @@ span.ripple {
 }
 
 .popup-content {
-    background-color: white;
+    background-color: #262626;
 	padding-top: 25px;
 	padding-bottom: 45px;
     padding-right: 30px;
