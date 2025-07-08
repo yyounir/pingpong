@@ -920,6 +920,61 @@ span.ripple {
 	animation: fadeIn .25s;
 }
 
+@media (max-width: 768px) {
+    canvas {
+        width: 95%; /* Make canvas fill more width on smaller screens */
+        height: auto; /* Adjust height proportionally */
+        max-height: 400px; /* Limit max height for very tall screens */
+    }
+    .game-button {
+        padding: 12px 25px;
+        font-size: 0.9em;
+    }
+    .instructions {
+        font-size: 0.8em;
+        padding: 10px 15px;
+        max-width: 90%;
+    }
+    #gameMessage {
+        font-size: 1.2em;
+        padding: 20px 30px;
+    }
+
+	.popup {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding-right: 200px;
+		padding-left: 200px;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		background-color: rgba(0, 0, 0, 0.5);
+		justify-content: center;
+		align-items: center;
+		cursor: default;
+	}
+
+	.popup-content {
+		background-color: #262626;
+		padding-top: 25px;
+		padding-bottom: 45px;
+		padding-right: 30px;
+		padding-left: 40px;
+		border-radius: 30px;
+		width: auto;
+		height: auto;
+		min-width: 350px;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+		text-align: left;
+		cursor: default;
+		animation: fadeIn .25s;
+	}
+
+}
+
 .close {
     position: absolute;
     top: 10px;
