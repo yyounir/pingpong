@@ -327,7 +327,6 @@ p
 	padding-left: 13px;
 	padding-right: 13px;
 	background-color:#2D2B3A;
-	border-color: #2D2B3A;
 		
 	margin-bottom: 8px;
 	width: auto;
@@ -542,7 +541,6 @@ p
 .image-on-popup {
 	float: center;
 	max-width: 25%;
-	border-radius: 20px;
 	margin: 2% 0%;
 }
 
@@ -902,6 +900,7 @@ span.ripple {
     justify-content: center;
     align-items: center;
 	cursor: default;
+	animation: fadeIn .25s;
 }
 
 .popup-content {
@@ -911,7 +910,7 @@ span.ripple {
     padding-right: 30px;
 	padding-left: 40px;
     border-radius: 30px;
-	width: auto;
+	max-width: 300px;
 	height: auto;
 	min-width: 500px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -936,6 +935,7 @@ span.ripple {
 		justify-content: center;
 		align-items: center;
 		cursor: default;
+		animation: fadeIn .25s;
 	}
 
 	.popup-content {
@@ -945,9 +945,7 @@ span.ripple {
 		padding-right: 30px;
 		padding-left: 40px;
 		border-radius: 30px;
-		width: auto;
-		height: auto;
-		min-width: 350px;
+		max-width: 500px;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 		text-align: left;
 		cursor: default;
