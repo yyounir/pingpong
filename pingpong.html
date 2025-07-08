@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Ping Pong Game</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="uistyles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <!-- FAVICON -->
+		<link rel="shortcut icon" href = "icon.png">
+		<link rel="icon" type="logoico.png" sizes = "32x32" href = "icon.png">
+		<link rel="aple-touch-icon" sizes = "180x180" href = "icon.png">
+		<link rel="icon" sizes = "192x192" href = "icon.png">
+
+
+        <body>
+                <center>
+                    <img src="logo.png" class="image-logo" alt = "Logo">
+                </center>
+                <canvas id="gameCanvas"></canvas>
+                <button id="startButton" class="game-button">Start Game</button>
+                <button id="startButton" class="game-button" onclick="openPopup()">About</button>
+
+                <div id="gameMessage">
+                    Game Over!
+                    <br>
+                    <span id="scoreDisplay"></span>
+                    <br>
+                    <button id="restartButton" class="game-button">Restart</button>
+                </div>
+
+                <div class="instructions">
+                    <p><strong>Instructions:</strong></p>
+                    <a class="regular-font"><p>Use  <i class="fa-solid fa-chevron-up"></i>  and  <i class="fa-solid fa-chevron-down"></i>  arrow keys to move your paddle.</p></a>
+                    <p>First to 5 points wins!</p>
+                </div>
+
+                <script src="script.js"></script> 
+
+
+
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <p class = "menu-text"><b>About</b></p>
+                        <center>
+                            <img src="logovert.png" class="image-on-popup" alt = "Logo">
+                            <p class="p2"><b>Project made by YY</b></p>
+                        </center>
+                        
+                        
+                        <p class="p2">I have also made other projects just like this one, click the link below!</p>
+                                <div class="action-button-tonal-card"><a href="https://yyounir.github.io/yyportfolio/Projects.html">
+                                    <div class="triple-column-button-1">
+                                        <p class = "action-icon-transparent-L"><a class="fas fa-diagram-project" href="https://yyounir.github.io/yyportfolio/Projects.html" target="blank"></a></p>
+                                    </div>
+                                    <a href="https://yyounir.github.io/yyportfolio/Projects.html" target="blank"><p class = "title3"><b>Projects<br></b>View projects I've done</p></a>
+                                
+                                </a></div>
+                                <br>
+                        <br>
+                        <div class="flex-container"> 
+                            <div>
+                                <a class = "action-button-tonal" onclick="closePopup()"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a> 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            
+        </body>
+</html>

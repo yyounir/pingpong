@@ -1,0 +1,164 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0;
+    background-color: #1a1a2e; /* Dark background */
+    font-family: 'Press Start 2P', cursive; /* Retro game font */
+    color: #e0e0e0;
+   
+    position: relative;
+}
+
+/* Import Google Font for retro style */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Canvas styling */
+canvas {
+    background-color: #0f0f1a; /* Darker background for the game area */
+    border: 5px solid #6c5ce7; /* Vibrant border */
+    border-radius: 15px; /* Rounded corners for the game area */
+    box-shadow: 0 0 30px rgba(108, 92, 231, 0.7); /* Glow effect */
+    display: block;
+    margin: 20px auto; /* Center the canvas */
+    touch-action: none; /* Prevent default touch actions like scrolling/zooming */
+}
+
+/* Game message box styling */
+#gameMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: 2px solid #6c5ce7;
+    text-align: center;
+    font-size: 0.9em;
+    display: none; /* Hidden by default */
+    box-shadow: 0 0 20px rgba(108, 92, 231, 0.5);
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -60%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+/* Button styling */
+.game-button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4);
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.game-button:hover {
+    background-color: #5a4acb;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(108, 92, 231, 0.6);
+}
+
+.game-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(108, 92, 231, 0.3);
+}
+
+.game-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+
+.game-button:hover::before {
+    left: 100%;
+}
+
+/* Instructions styling */
+.instructions {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid #4a4a6b;
+}
+
+.instructions p {
+    margin: 5px 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    canvas {
+        width: 95%; /* Make canvas fill more width on smaller screens */
+        height: auto; /* Adjust height proportionally */
+        max-height: 400px; /* Limit max height for very tall screens */
+    }
+    .game-button {
+        padding: 12px 25px;
+        font-size: 0.9em;
+    }
+    .instructions {
+        font-size: 0.8em;
+        padding: 10px 15px;
+        max-width: 90%;
+    }
+    #gameMessage {
+        font-size: 1.2em;
+        padding: 20px 30px;
+    }
+}
+
+/* Making the page scroll */
+.card-container {
+	width: 90%; /* Responsive width */
+	max-width: 400px; /* Max width for larger screens */
+	background-color: #ffffff;
+	border-radius: 1rem; /* Rounded corners */
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden; /* Important to contain the scrollable content */
+}
+
+.card-header {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+.card-content {
+	/* This is the key part for scrolling */
+	max-height: 500px; /* Set a maximum height for the content area */
+	overflow-y: auto; /* Enable vertical scrolling when content overflows */
+	padding-right: 0.5rem; /* Add some padding to prevent scrollbar from touching content */
+	margin-bottom: 1rem; /* Space below content */
+}
+
+
+
