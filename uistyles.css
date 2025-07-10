@@ -757,125 +757,12 @@ span.ripple {
 	100% { opacity: 1; }
 }
 
-/* Menu */
-/* Page */
-.cd__main{
-    position: relative;
-   min-height: 640px;
-}
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-/*Menu Pop-up*/
-/* Popup container */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-	
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-	
-	
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-
-
-
-
-/* Show the popup when clicked */
-.popup.show {
-    visibility: visible;
-    animation: fadeIn 1s;
-}
 
 /* Add animation (fade in the popup) */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
-.drawer {
-    position: relative;
-}
-
-.drawer-toggle {
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.drawer-nav {
-    position: fixed;
-    top: 0;
-    left: -400px;
-    width: 300px;
-    height: 100%;
-    background-color: white;
-    color: #FFDEFF;
-    transition: left 0.3s;
-	transition-duration: 0.4s;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.drawer-nav ul {
-    list-style-type: none;
-    padding: 10px;	
-	text-align: left;
-	
-}
-
-.drawer-nav li {
-    padding: 10px;
-}
-
-.drawer-nav a {
-    color: #FFDEFF;
-    text-decoration: none;
-	padding: 10px;
-	text-align: left;
-	
-}
-
-.drawer-nav a:hover {
-    background-color: #B8B3FF;
-	padding: 10px;
-	border-radius: 100px;
-}
-
 
 /* Pop-ups */
 
@@ -967,105 +854,10 @@ span.ripple {
 	justify-content: flex-end; 
 }
 
-/*Menu Popups*/
-body {
-    font-family: nunito;
-}
-
-.context-menu-container {
-    width: 300px;
-    height: 200px;
-    border: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    position: relative;
-}
-
-.context-menu {
-    display: none;
-    position: fixed;
-    background-color: #D1CEFF;
-	border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-	text-decoration: none;
-	text-align: left;
-}
-
-.context-menu ul {
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-}
-
-.context-menu li {
-    padding: 10px 20px;
-    cursor: pointer;
-	text-decoration: none;	
-}
-
-.context-menu a {
-	text-decoration: none;
-	text-align: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.context-menu li:hover {
-    background-color: #A49DFF;
-	border-radius: 10px;
-
-}
-
-
-
-/* Rows and Columns */
-  /* Clear floats after the columns */
-  .row::after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-	background-color: white;
-	border-radius: 30px;
-	float: inline-start;
-	width: 48%;
-	padding: 25px 25px;
-	padding-bottom: 50px;
-	margin-top: 2%;
-	margin-right: 0%;
-	margin-bottom: 1.5%;
-	margin-left: 0%;
-}
-
-.column-right {
-	background-color: white;
-	border-radius: 30px;
-	float: inline-end;
-	width: 48%;
-	padding: 25px 25px;
-	margin-top: 2%;
-	margin-right: 0%;
-	margin-bottom: 1.5%;
-	margin-left: 0%;
-}
-
 .heading-title{
 	font-family: "nunito";
 	font-weight: bold;
 	color: #114D68;
-}
-
-.bottles {
-	float: center;
-	width: 40%;
-	border-radius: 30px;
-	margin: 2% 0%;
 }
 
 @keyframes zoomIn {
