@@ -202,6 +202,8 @@ p
 .action-button-filled:hover {
 	background-color: #FFDEFF;
 	color: white;
+	padding-right: 16px;
+	padding-left:16px;
 }
 
 .action-button-unfilled {	
@@ -230,6 +232,8 @@ p
 .action-button-unfilled:hover {
 	background-color: #B8B3FF;
 	color: #FFDEFF;
+	padding-right: 16px;
+	padding-left:16px;
 }
 
 .action-button-unfilled-card {	
@@ -319,6 +323,8 @@ p
 
 .action-button-tonal:hover {
 	background-color: #413E54;
+	padding-right: 16px;
+	padding-left:16px;
 }
 
 .action-button-tonal-card {
@@ -352,6 +358,8 @@ p
 
 .action-button-tonal-card:hover {
 	background-color: #413E54;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .action-button-outlined {
