@@ -916,7 +916,7 @@ span.ripple {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: left;
 	cursor: default;
-	animation: fadeIn .25s;
+	animation: zoomIn 0.2s ease-out forwards;
 }
 
 @media (max-width: 768px) {
@@ -950,7 +950,6 @@ span.ripple {
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 		text-align: left;
 		cursor: default;
-		animation: fadeIn .25s;
 	}
 
 }
@@ -1068,3 +1067,14 @@ body {
 	border-radius: 30px;
 	margin: 2% 0%;
 }
+
+@keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
