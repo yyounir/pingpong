@@ -812,6 +812,7 @@ span.ripple {
     text-align: left;
 	cursor: default;
 	animation: zoomIn 0.2s ease-out forwards;
+	overflow-y: auto;
 }
 
 @media (max-width: 768px) {
