@@ -796,6 +796,8 @@ span.ripple {
     align-items: center;
 	cursor: default;
 	animation: fadeIn .25s;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .popup-content {
@@ -807,6 +809,7 @@ span.ripple {
     border-radius: 30px;
 	max-width: 300px;
 	height: auto;
+	max-height: 100%;
 	min-width: 500px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: left;
