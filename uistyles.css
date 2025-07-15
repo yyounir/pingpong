@@ -5,7 +5,7 @@
 
 
 h1 {
-	font-family: "nunito";
+	font-family: "quicksand";
 	color: #FFDEFF;
 }
 
@@ -44,7 +44,7 @@ header a {
 	text-decoration: none;
 	font-size: 18pt;	
 	border-radius: 4px;
-	font-family: nunito-extra-light;
+	font-family: quicksand-extra-light;
 }
 
 header a.active {
@@ -77,7 +77,7 @@ li {
 p
 {
 	color: white;
-	font-family: "nunito";
+	font-family: "quicksand";
 	font-size: 14pt;
 }
 
@@ -175,7 +175,7 @@ p
 /* . */
 .action-button-filled {
 	
-	font-family: nunito;
+	font-family: quicksand;
 	padding: 12px;
 	background-color: #1f00bf;
 	margin: auto;
@@ -207,7 +207,7 @@ p
 }
 
 .action-button-unfilled {	
-	font-family: nunito;
+	font-family: quicksand;
 	padding: 12px;
 	margin: auto;
 	width: auto; 
@@ -237,7 +237,7 @@ p
 }
 
 .action-button-unfilled-card {	
-	font-family: nunito;
+	font-family: quicksand;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	padding-left: 13px;
@@ -269,7 +269,7 @@ p
 }
 
 .action-drawer-button-unfilled {	
-	font-family: nunito;
+	font-family: quicksand;
 	padding: 12px;
 	margin: auto;
 	text-align: left;
@@ -307,7 +307,7 @@ p
 	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	font-family: nunito;
+	font-family: quicksand;
 	text-decoration: none;
 	font-size: 13pt;
 }
@@ -342,7 +342,7 @@ p
 	color: #2D2B3A;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	font-family: nunito;
+	font-family: quicksand;
 	text-decoration: none;
 	font-size: 13pt;
 }
@@ -373,7 +373,7 @@ p
 	color: #FFDEFF;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	font-family: nunito;
+	font-family: quicksand;
 	text-decoration: none;
 	outline-style: auto;
 	outline-color: #FFDEFF;
@@ -522,7 +522,7 @@ p
 }
 
 .header-text {
-	font-family: nunito;
+	font-family: quicksand;
 }
 
 .image-logo {
@@ -867,7 +867,7 @@ span.ripple {
 }
 
 .heading-title{
-	font-family: "nunito";
+	font-family: "quicksand";
 	font-weight: bold;
 	color: #114D68;
 }
